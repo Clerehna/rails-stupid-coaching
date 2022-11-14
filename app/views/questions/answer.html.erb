@@ -1,0 +1,22 @@
+<div class="d-flex flex-column bd-highlight mb-3 ">
+<figure class="text-center border mt-1">
+  <blockquote class="blockquote">
+    <p><%= params[:question] %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You</cite>
+  </figcaption>
+</figure>
+<figure class="text-center border">
+  <blockquote class="blockquote">
+    <p><%= @answer_coach %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach</cite>
+  </figcaption>
+</figure>
+<button type="button" class="btn btn-outline-primary">
+<div>
+<%= link_to 'Ask a question again', "/ask" %>
+</div>
+</div>
